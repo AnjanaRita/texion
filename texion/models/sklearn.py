@@ -1,5 +1,5 @@
 """
-Base sklearn based classifiers module
+Base sklearn based classifiers
 """
 
 import warnings
@@ -41,12 +41,10 @@ class Sklearn:
         if params:
             clf = OPTIONS.get(name)(**params)
             print(
-                f"""classification model configured to use {clf.__class__.__name__} \
-                algorithm with parameters:\n{params}""")
+                f"""classification model configured to use {clf.__class__.__name__} algorithm with parameters:\n{params}""")
 
         else:
             clf = OPTIONS.get(name)()
             print(
-                f"""classification model configured to use {clf.__class__.__name__} \
-                algorithm.\nnote: running with default configuration""")
+                f"""classification model configured to use {clf.__class__.__name__} algorithm.\nnote: running with default configuration""")
         return clf
