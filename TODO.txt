@@ -1,0 +1,7 @@
+1. datasets module: capable of downloading/caching famous NLP datasets.
+2. embeddings module: capable of downloadin/caching famous pretrained embeddings or creating own embeddings
+3. text_encoders module: various text encoding utils 
+4. metrics module: various metrics utility functions
+5. utils module: various helper functions (also include download utils)
+7. models.sklearn.base_sklearn
+8. models.torch.under torch build various nn modules
