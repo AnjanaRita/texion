@@ -1,5 +1,5 @@
-from .base_sklearn import BaseSklearn
-from .base_torch import BaseTorch
+from .sklearn.base_sklearn import BaseSklearn
+from .torch.base_torch import BaseTorch
 
 
 class Texion:
