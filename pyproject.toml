@@ -1,11 +1,11 @@
 [metadata]
 name = 'texion'
 version = '0.0.1'
-description = ''
+description = 'pytorch and scikit-learn based text classification library'
 author = 'Bharath G.S'
 author_email = 'royalkingpin@gmail.com'
 license = 'MIT'
-url = 'https://github.com/_/texion'
+url = 'https://github.com/bharathgs/texion'
 
 [requires]
 python_version = ['3.6']
