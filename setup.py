@@ -18,17 +18,18 @@ REQUIRES = []
 setup(
     name='texion',
     version=version,
-    description='',
+    description='pytorch and scikit-learn based text classification library',
     long_description=readme,
     author='Bharath G.S',
     author_email='royalkingpin@gmail.com',
     maintainer='Bharath G.S',
     maintainer_email='royalkingpin@gmail.com',
-    url='https://github.com/_/texion',
+    url='https://github.com/bharathgs/texion',
     license='MIT',
 
     keywords=[
-        '',
+        'pytorch', 'text', 'text classification', 'NLP', 'scikit-learn',
+        'sklearn', 'machine learning', 'deep learning'
     ],
 
     classifiers=[
