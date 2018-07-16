@@ -3,5 +3,5 @@
 3. text_encoders module: various text encoding utils 
 4. metrics module: various metrics utility functions
 5. utils module: various helper functions (also include download utils)
-7. models.sklearn.base_sklearn
+7. models.sklearn.base_sklearn: sklearn based classifiers
 8. models.torch.under torch build various nn modules
