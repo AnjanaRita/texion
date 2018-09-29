@@ -8,4 +8,5 @@ class Texion:
             print(f"configured to run with {mode}")
             return BaseSklearn(name, params)
         if mode == "Torch":
-            raise NotImplementedError("work in progress")
+            print(f"configured to run with {mode}")
+            return BaseTorch(name, params)
