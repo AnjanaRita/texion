@@ -7,7 +7,26 @@ import torch
 from .yoonkim import YoonKimCnn
 
 
-OPTIONS = {"yoonkim": YoonKimCnn}
+OPTIONS = {"YoonKimCnn": YoonKimCnn,
+           "MultiLayerCNN": None,
+           "MultiperspectiveCNN": None,
+           "InceptionCNN": None,
+           "BILSTM": None,
+           "StackLSTM": None,
+           "SelfAttentionLSTM": None,
+           "QuantumAttentionLSTM": None,
+           "FastText": None,
+           "HAN": None,
+           "RNN": None,
+           "RCNN": None,
+           "CharCnn": None,
+           "StackedRnn": None,
+           "AttentionRnn": None,
+           "CLSTM": None,
+           "Transformer": None,
+           "ConS2S": None,
+           "Capsule": None,
+           "QuantumCNN": None}
 
 
 class BaseTorch:
