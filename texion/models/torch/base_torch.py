@@ -5,6 +5,7 @@ Base pytorch based deep classifiers
 """
 import torch
 from .yoonkim import YoonKimCnn
+from .fasttext import FastText
 
 
 OPTIONS = {"YoonKimCnn": YoonKimCnn,
@@ -15,7 +16,7 @@ OPTIONS = {"YoonKimCnn": YoonKimCnn,
            "StackLSTM": None,
            "SelfAttentionLSTM": None,
            "QuantumAttentionLSTM": None,
-           "FastText": None,
+           "FastText": FastText,
            "HAN": None,
            "RNN": None,
            "RCNN": None,
