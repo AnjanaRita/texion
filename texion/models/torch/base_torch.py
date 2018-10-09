@@ -6,17 +6,18 @@ Base pytorch based deep classifiers
 import torch
 from .yoonkim import YoonKimCnn
 from .fasttext import FastText
+from .MultiLayerCNN import MultiLayerCNN
 
 
 OPTIONS = {"YoonKimCnn": YoonKimCnn,
-           "MultiLayerCNN": None,
+           "MultiLayerCNN": MultiLayerCNN,
+           "FastText": FastText,
            "MultiperspectiveCNN": None,
            "InceptionCNN": None,
            "BILSTM": None,
            "StackLSTM": None,
            "SelfAttentionLSTM": None,
            "QuantumAttentionLSTM": None,
-           "FastText": FastText,
            "HAN": None,
            "RNN": None,
            "RCNN": None,
