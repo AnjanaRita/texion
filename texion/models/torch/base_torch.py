@@ -5,13 +5,14 @@ Base pytorch based deep classifiers
 """
 import torch
 from .yoonkim import YoonKimCnn
-from .fasttext import FastText
-from .MultiLayerCNN import MultiLayerCNN
+from .multilayercnn import MultiLayerCNN
+from .rcnn import RCNN  
 
 
 OPTIONS = {"YoonKimCnn": YoonKimCnn,
            "MultiLayerCNN": MultiLayerCNN,
-           "FastText": FastText,
+           "FastText": None,
+           "Capsule": None,
            "MultiperspectiveCNN": None,
            "InceptionCNN": None,
            "BILSTM": None,
@@ -20,14 +21,13 @@ OPTIONS = {"YoonKimCnn": YoonKimCnn,
            "QuantumAttentionLSTM": None,
            "HAN": None,
            "RNN": None,
-           "RCNN": None,
+           "RCNN": RCNN,
            "CharCnn": None,
            "StackedRnn": None,
            "AttentionRnn": None,
            "CLSTM": None,
            "Transformer": None,
            "ConS2S": None,
-           "Capsule": None,
            "QuantumCNN": None}
 
 
